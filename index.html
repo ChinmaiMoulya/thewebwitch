@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>The Web Witch</title>
+    <link rel="icon" href="images/favicon.ico">
+    <script src="https://kit.fontawesome.com/e88988b00f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="smooth-scroll.js"></script>
+    <script>
+    	var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+  </head>
+  <body>
+
+    <!-- navigation -->
+
+    <section id="navigationbar">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#">TheWebWitch</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#navigationbar">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#details">Contact</a>
+          </li>
+      </ul>
+    </div>
+
+  </nav>
+  </section>
+
+<!-- main -->
+
+  <section id="main">
+    <div class="container-fluid">
+      <img class="logo" src="images/tww.png" alt="Logo">
+      <h1 class="name">Hola!!! I'm Chinmai Moulya</h1>
+      <h3 class="tagline"> ~ A web developer</h3>
+      <p class="description">“Let us take you into a deeper experience, make a moment a lasting conveyable memory. Let us help build your tribe.”</p>
+    </div>
+  </section>
+
+
+<!-- skills -->
+
+  <section id="skills">
+    <h2 class="title">Skills</h2>
+      <div class="card">
+        <div class="row">
+        <div class="col-lg-4 card-body">
+          <i class="fab fa-html5 fa-5x"></i>
+          <h5 class="card-title">HTML</h5>
+        </div>
+        <div class="col-lg-4 card-body">
+          <i class="fab fa-css3-alt fa-5x"></i>
+          <h5 class="card-title">CSS</h5>
+        </div>
+        <div class="col-lg-4 card-body">
+          <i class="fab fa-bootstrap fa-5x"></i>
+          <h5 class="card-title">BOOTSTRAP</h5>
+        </div>
+      </div>
+    </div>
+    <a class="up" href="#navigationbar" style="color:black;"><i class="fas fa-angle-up fa-2x"></i></a>
+  </section>
+
+<!-- Projects -->
+
+  <section id="projects">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="slidetitle">Take a sneekpeek on my few websites</h2>
+            <h3 class="slidetagline">Swipe Right!!!</h3>
+          </div>
+          <div class="carousel-item">
+            <h2 class="slidetitle">Checkout my college fest website</h2>
+            <a href="http://yourfest.usharama.edu.in/" class="btn btn-outline-light" role="button" aria-pressed="true">URFest2020</a>
+          </div>
+          <div class="carousel-item">
+            <h2 class="slidetitle">Checkout my CSE association website</h2>
+            <a href="http://www.technozola.tk/" class="btn btn-outline-light" role="button" aria-pressed="true">Technozola</a>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <a class="up" href="#navigationbar" style="color:white;"><i class="fas fa-angle-up fa-2x"></i></a>
+  </section>
+
+ <!-- details -->
+ <section id="details">
+   <div class="row">
+     <div class="col-lg-12">
+       <img class="me" src="images/me.png" alt="">
+       <h3>Want to have a website of your own?</h3>
+       <h3 class="mail">Mail me over here!!</h3>
+     </div>
+     <div class="feedback col-lg-12">
+       <a class="google"href="mailto:chinmaimoulya@gmail.com?Subject=Hello%20again" target="_top"><i class="fab fa-google fa-3x"></i></a>
+       <h4>G-Mail</h4>
+     </div>
+   </div>
+   <a class="up" href="#navigationbar" style="color:black;"><i class="fas fa-angle-up fa-2x"></i></a>
+ </section>
+
+<!-- footer -->
+
+<section id="socialmediasites">
+  <div class="footer">
+    <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin fa-2x"></i></a>
+    <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"></i></a>
+    <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a>
+    <a href="https://github.com/ChinmaiMoulya"><i class="fab fa-github-square fa-2x"></i></a>
+  </div>
+</section>
+
+  </body>
+</html>
